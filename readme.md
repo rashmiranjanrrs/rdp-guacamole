@@ -18,6 +18,7 @@ clone this repository
 git clone <repo.git>
 
 docker build . -t rrs/node-web-app
+
 docker run -p 49160:8080 -d rrs/node-web-app:latest
 
 STEP 4: 
